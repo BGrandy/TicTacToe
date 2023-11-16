@@ -1,0 +1,48 @@
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+th {
+    width: fit-content;
+    margin: auto;
+    max-width: 120px;
+    max-height: 120px;
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 60%;
+    margin: auto;
+    padding: 50px 0;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    background-color: #EEA47FFF;
+}
+
+button {
+    padding: 50px;
+    background-color: white;
+    border-width: 0px;
+}
+
+
+.markerSelector {
+    margin: 0 15px 15px;
+}
+
+img {
+    max-width: 50px;
+    max-height: 50px;
+    pointer-events: none;
+}
+
+.markerSelectorToggled{
+    border-width: 2px;
+    border-color: #00539CFF;
+}
